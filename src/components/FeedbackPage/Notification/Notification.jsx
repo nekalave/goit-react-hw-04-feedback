@@ -1,10 +1,8 @@
 import React from 'react';
 
-const Notification = ({ message, total}) => (
+const Notification = ({ message }) => (
   <>
-  {total === 0 && (
       <div>{message}</div>
-    )}
   </>
 );
 
